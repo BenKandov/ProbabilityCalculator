@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Probability Calculator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_find_single_event">findSingleEvent</string>
+    <string name="title_activity_find_single">findSingleActivity</string>
+    <string name="title_activity_find_single_option1">findSingleOption1Activity</string>
+    <string name="title_activity_find_single_option2">findSingleOption2Activity</string>
+    <string name="title_activity_find_single_option3">findSingleOption3Activity</string>
+    <string name="title_activity_find_union">findUnionActivity</string>
+    <string name="title_activity_find_union_option1">findUnionOption1Activity</string>
+    <string name="title_activity_find_union_option2">findUnionOption2Activity</string>
+    <string name="title_activity_find_conditional">findConditionalActivity</string>
+    <string name="title_activity_find_conditional_option1">findConditionalOption1Activity</string>
+    <string name="title_activity_find_conditional_option2">findConditionalOption2Activity</string>
+    <string name="title_activity_find_intersection">findIntersectionActivity</string>
+    <string name="title_activity_find_intersection_option1">findIntersectionOption1Activity</string>
+    <string name="title_activity_find_intersection_option2">findIntersectionOption2Activity</string>
+</resources>

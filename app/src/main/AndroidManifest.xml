@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.comeOn.benkandov.probabilitycalculator" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ <!--      <activity
+           android:name=".findSingleEvent"
+           android:label="@string/title_activity_find_single_event" >
+        </activity> -->
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findSingleActivity"
+            android:label="@string/title_activity_find_single" >
+        </activity>
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findSingleOption1Activity"
+            android:label="@string/title_activity_find_single_option1" >
+        </activity>
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findSingleOption2Activity"
+            android:label="@string/title_activity_find_single_option2" >
+        </activity>
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findSingleOption3Activity"
+            android:label="@string/title_activity_find_single_option3" >
+        </activity>
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findUnionActivity"
+            android:label="@string/title_activity_find_union" >
+        </activity>
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findUnionOption1Activity"
+            android:label="@string/title_activity_find_union_option1" >
+        </activity>
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findUnionOption2Activity"
+            android:label="@string/title_activity_find_union_option2" >
+        </activity>
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findConditionalActivity"
+            android:label="@string/title_activity_find_conditional" >
+        </activity>
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findConditionalOption1Activity"
+            android:label="@string/title_activity_find_conditional_option1" >
+        </activity>
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findConditionalOption2Activity"
+            android:label="@string/title_activity_find_conditional_option2" >
+        </activity>
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findIntersectionActivity"
+            android:label="@string/title_activity_find_intersection" >
+        </activity>
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findIntersectionOption1Activity"
+            android:label="@string/title_activity_find_intersection_option1" >
+        </activity>
+        <activity
+            android:name="com.comeOn.benkandov.probabilitycalculator.findIntersectionOption2Activity"
+            android:label="@string/title_activity_find_intersection_option2" >
+        </activity>
+    </application>
+
+</manifest>
